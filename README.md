@@ -1,4 +1,4 @@
-# Muhammad Saad Amin
+# Abubakar Afzal
 
 A sleek, corporate-dark React portfolio. Inspired by Stripe, Vercel, and Linear.
 
