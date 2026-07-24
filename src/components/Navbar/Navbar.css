@@ -610,3 +610,23 @@
 @media (max-width: 400px) {
   .nav-logo-role { display: none; }
 }
+
+/* When mobile drawer is open, hide or collapse desktop logo text to avoid visual clash */
+@media (max-width: 768px) {
+  .nav-open .nav-logo-text {
+    opacity: 0;
+    transform: translateX(-6px);
+    pointer-events: none;
+    transition: opacity .18s, transform .18s;
+  }
+}
+
+/* Ensure mobile drawer brand name truncates gracefully instead of wrapping */
+.mobile-nav-brand { min-width: 0; }
+.mobile-nav-brand > div { min-width: 0; }
+.mobile-nav-brand-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: calc(100vw - 140px);
+}

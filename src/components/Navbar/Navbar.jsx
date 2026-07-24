@@ -82,7 +82,7 @@ export default function Navbar() {
 
   return (
     <>
-      <header className={`nav${solid ? " nav-solid" : ""}`} role="banner">
+      <header className={`nav${solid ? " nav-solid" : ""}${open ? " nav-open" : ""}`} role="banner">
         <div className="nav-inner">
           {/* ── Logo ── */}
           <a
