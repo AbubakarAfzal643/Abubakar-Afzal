@@ -8,7 +8,7 @@ export const personal = {
   github: "https://github.com/AbubakarAfzal643",
   linkedin: "https://www.linkedin.com/in/abubakar-afzal-214344287",
   instagram: "https://www.instagram.com/abubakar.cpp/",
-  portfolio: "https://abubakars-devfolio.netlify.app/",
+  portfolio: "https://abubakar-devfolio.netlify.app/",
   bio: "Passionate Software Engineering student at FAST NUCES, focused on building responsive, user-centric web applications using React and the MERN stack.",
   aboutExtended:
     "I believe that development is about more than writing code — it is about solving real problems and creating intuitive experiences for users. I bring design thinking, clean architecture, and a strong commitment to quality to every project I build.",
