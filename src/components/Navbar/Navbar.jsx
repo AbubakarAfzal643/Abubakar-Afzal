@@ -250,7 +250,7 @@ export default function Navbar() {
         {/* Drawer header */}
         <div className="mobile-nav-header">
           <div className="mobile-nav-brand">
-            <span className="mobile-nav-brand-mark">S</span>
+            <span className="mobile-nav-brand-mark">{personal.name.charAt(0)}</span>
             <div>
               <div className="mobile-nav-brand-name">{personal.name}</div>
               <div className="mobile-nav-brand-status">

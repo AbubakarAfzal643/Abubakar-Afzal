@@ -630,3 +630,9 @@
   text-overflow: ellipsis;
   max-width: calc(100vw - 140px);
 }
+
+
+.nav-open .nav-logo-mark {
+  opacity: 0;
+  pointer-events: none;
+}
