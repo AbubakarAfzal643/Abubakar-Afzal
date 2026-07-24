@@ -1,4 +1,4 @@
-import { Terminal } from "../ui/terminal";
+import { Terminal } from "../ui/Terminal";
 import { useInView } from "../../hooks/useAnimations";
 import { personal } from "../../data/portfolioData";
 
