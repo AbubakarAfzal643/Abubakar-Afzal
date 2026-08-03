@@ -1219,6 +1219,10 @@
     box-shadow 0.2s,
     transform 0.2s var(--ease);
 }
+.cert-card--top {
+  min-height: 250px;
+  padding: 24px 26px;
+}
 .cert-card:hover {
   border-color: var(--border-1);
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45);
@@ -1276,6 +1280,44 @@
   background: rgba(255, 255, 255, 0.08);
   border-color: var(--border-1);
 }
+
+@media (min-width: 1200px) {
+  .certs-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-auto-flow: dense;
+  }
+
+  .cert-card {
+    grid-column: span 4;
+    order: 1;
+  }
+
+  .cert-card--top {
+    grid-column: span 6;
+    order: 0;
+  }
+
+  .cert-card--top .cert-icon {
+    width: 42px;
+    height: 42px;
+    font-size: 1rem;
+  }
+
+  .cert-card--top .cert-name {
+    font-size: 1.08rem;
+  }
+
+  .cert-card--top .cert-description {
+    font-size: 0.84rem;
+    max-width: 46ch;
+  }
+}
+
+@media (max-width: 1199px) {
+  .cert-card--top {
+    min-height: 200px;
+  }
+}
 .cert-modal-overlay {
   position: fixed;
   inset: 0;
@@ -1287,6 +1329,7 @@
 }
 .cert-modal {
   width: min(560px, 100%);
+  max-height: calc(100vh - 48px);
   border-radius: var(--r-xl);
   background: var(--bg-1);
   border: 1px solid var(--border-0);
@@ -1312,10 +1355,47 @@
 }
 .cert-modal-image {
   width: 100%;
+  max-height: 52vh;
   height: auto;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
   background: var(--bg-0);
+}
+.cert-modal-placeholder {
+  min-height: 320px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+  background:
+    radial-gradient(circle at top left, rgba(245, 158, 11, 0.22), transparent 36%),
+    linear-gradient(180deg, rgba(15, 23, 42, 0.96), rgba(2, 6, 23, 1));
+  border-bottom: 1px solid var(--border-0);
+}
+.cert-modal-placeholder-badge {
+  width: fit-content;
+  padding: 8px 12px;
+  border-radius: 9999px;
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  background: rgba(245, 158, 11, 0.1);
+  color: #fbbf24;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.cert-modal-placeholder-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--text-0);
+}
+.cert-modal-placeholder-copy {
+  color: var(--text-2);
+  line-height: 1.7;
+  max-width: 44ch;
+}
+.cert-modal-placeholder-copy span {
+  color: var(--text-0);
 }
 .cert-modal-content {
   padding: 22px 24px;

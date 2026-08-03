@@ -16,7 +16,7 @@ export const personal = {
 
 export const stats = [
   { value: "12+", label: "Projects Completed", count: 12 },
-  { value: "3+", label: "Internships", count: 3 },
+  { value: "4+", label: "Internships", count: 4 },
   { value: "6+", label: "Months Experience", count: 6 },
   { value: "15+", label: "Technologies", count: 15 },
 ];
@@ -50,10 +50,23 @@ export const education = [
 
 export const experiences = [
   {
+    role: "Software Quality Tester",
+    company: "Netsol Technologies",
+    location: "Pakistan",
+    period: "July 2026 - August 2026",
+    type: "Internship",
+    accent: "#f59e0b",
+    bullets: [
+      "Automated multiple websites using Playwright and Python to improve repeatable test coverage.",
+      "Validated key user flows with end-to-end checks and smoke tests.",
+      "Strengthened attention to detail while documenting issues and regression risks.",
+    ],
+  },
+  {
     role: "Web Developer Intern",
     company: "Quantum Logics",
     location: "Lahore, Pakistan",
-    period: "April 2026 - Present",
+    period: "April 2026 - July 2026",
     type: "Internship",
     accent: "#60a5fa",
     bullets: [
@@ -239,6 +252,14 @@ export const skills = {
 };
 
 export const certificates = [
+  {
+    name: "SQA - Intern",
+    issuer: "Netsol Technologies",
+    date: "2026",
+    description:
+      "Completed an SQA internship focused on automating websites with Playwright and Python.",
+    image: "/certificates/Netsol Completion Certificate.png",
+  },
   {
     name: "Frontend Development - Intern",
     issuer: "DeveloperHUB Corporation",
