@@ -50,16 +50,27 @@ export const education = [
 
 export const experiences = [
   {
-    role: "Software Quality Tester",
-    company: "Netsol Technologies",
+    role: "Salesforce Developer",
+    company: "Adforce Solutions",
+    location: "Lahore, Pakistan",
+    period: "Aug 2026 - Present",
+    type: "Full-time",
+    accent: "#3b82f6",
+    bullets: [
+      "Developing and configuring Salesforce solutions to support customer relationship management (CRM) workflows and business requirements.",
+      "Utilizing Salesforce Trailhead to strengthen knowledge of Salesforce development, administration, data management, and CRM concepts.",
+    ],
+  },
+  {
+    role: "Software Quality Tester Intern",
+    company: "NETSOL Technologies",
     location: "Pakistan",
-    period: "July 2026 - August 2026",
+    period: "Jul 2026 - Aug 2026",
     type: "Internship",
     accent: "#f59e0b",
     bullets: [
-      "Automated multiple websites using Playwright and Python to improve repeatable test coverage.",
-      "Validated key user flows with end-to-end checks and smoke tests.",
-      "Strengthened attention to detail while documenting issues and regression risks.",
+      "Automated multiple websites using Playwright and Python to improve repeatable test coverage and testing efficiency.",
+      "Validated critical user flows through end-to-end testing and smoke testing to identify functional issues and regression risk.",
     ],
   },
   {

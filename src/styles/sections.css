@@ -433,35 +433,40 @@
 }
 
 .exp-item {
+  --accent-color: #60a5fa;
   background: var(--bg-0);
   border: 1px solid var(--border-0);
   border-radius: var(--r-lg);
-  padding: clamp(20px, 3vw, 30px);
+  padding: clamp(18px, 3vw, 28px);
   transition:
-    border-color 0.2s,
-    box-shadow 0.2s,
-    transform 0.2s var(--ease);
+    border-color 0.18s,
+    box-shadow 0.18s,
+    transform 0.18s var(--ease);
   position: relative;
   overflow: hidden;
 }
 .exp-item:hover {
   border-color: var(--border-1);
-  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.5);
-  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.28);
+  transform: translateY(-3px);
 }
 
-.exp-accent-line {
+/* Decorative accent bar (uses CSS var set inline by component) */
+.exp-accent-bar {
   position: absolute;
   left: 0;
   top: 0;
   bottom: 0;
-  width: 2px;
-  border-radius: 2px 0 0 2px;
-  opacity: 0;
-  transition: opacity 0.2s;
+  width: 4px;
+  border-radius: 6px 0 0 6px;
+  background: linear-gradient(180deg, var(--accent-color), rgba(255,255,255,0.06));
+  opacity: 0.14;
+  transform: translateX(-6px);
+  transition: opacity 0.18s, transform 0.18s;
 }
-.exp-item:hover .exp-accent-line {
+.exp-item:hover .exp-accent-bar {
   opacity: 1;
+  transform: translateX(0);
 }
 
 .exp-top {

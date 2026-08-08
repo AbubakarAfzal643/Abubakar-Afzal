@@ -30,11 +30,7 @@ function ExpItem({ exp, index }) {
       style={{ '--accent-color': exp.accent }}
     >
       {/* Left accent bar */}
-      <div style={{
-        position: 'absolute', left: 0, top: 0, bottom: 0, width: 2,
-        background: exp.accent, borderRadius: '2px 0 0 2px', opacity: 0,
-        transition: 'opacity 0.2s'
-      }} className="exp-accent-bar" />
+      <div className="exp-accent-bar" />
 
       <div className="exp-top">
         <div className="exp-left">
