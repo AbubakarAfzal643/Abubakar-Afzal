@@ -9,6 +9,7 @@ const WORDS = [
   "React Specialist",
   "MERN Stack Engineer",
   "Software Engineer",
+  "Salesforce Developer"
 ];
 
 const SOCIALS = [

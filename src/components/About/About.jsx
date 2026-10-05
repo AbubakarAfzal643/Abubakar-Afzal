@@ -41,13 +41,10 @@ export default function About() {
             </h2>
             <div className={`about-body reveal${inView ? " visible" : ""}`}>
               <p className="about-p">
-                Hi, I’m <strong className="text-accent-blue">Abubakar Afzal</strong>, a <strong className="text-accent-green">MERN Stack Developer</strong> who builds beautiful, functional, and <strong className="text-accent-purple">user-centered</strong> digital experiences.
+                Hi, I'm <strong className="text-accent-blue">Abubakar Afzal</strong>, a <strong className="text-accent-green">MERN Stack</strong> and <strong className="text-accent-cyan">Salesforce Developer</strong> who builds beautiful, functional, and <strong className="text-accent-purple">user-centered</strong> digital experiences.
               </p>
               <p className="about-p">
-                I believe <strong className="text-accent-orange">design</strong> is more than just looking pretty—it’s about solving problems and creating intuitive, enjoyable experiences.
-              </p>
-              <p className="about-p">
-                Whether it’s a website, mobile app, or digital product, I bring a commitment to <strong className="text-accent-cyan">design excellence</strong> and user-centered thinking to every project.
+                I believe <strong className="text-accent-orange">design</strong> is more than just looking pretty—it's about solving real problems with intuitive, performant solutions. I bring hands-on experience across web platforms and enterprise CRM, currently applying that at <strong className="text-accent-green">Aurion Biotech</strong> to help drive their regenerative cell therapy mission forward.
               </p>
 
               <div className="hero-socials">

@@ -1,6 +1,6 @@
 export const personal = {
   name: "Abubakar Afzal",
-  title: "Software Engineer | Frontend Developer",
+  title: "Software Engineer | Frontend Developer | Salesforce Developer",
   tagline: "Building scalable solutions with React and modern web technologies.",
   email: "abubakarafzal643@gmail.com",
   phone: "+92 306 555 8577",
@@ -16,9 +16,9 @@ export const personal = {
 
 export const stats = [
   { value: "12+", label: "Projects Completed", count: 12 },
-  { value: "4+", label: "Internships", count: 4 },
-  { value: "6+", label: "Months Experience", count: 6 },
-  { value: "15+", label: "Technologies", count: 15 },
+  { value: "5+", label: "Internships", count: 5 },
+  { value: "8+", label: "Months Experience", count: 8 },
+  { value: "18+", label: "Technologies", count: 18 },
 ];
 
 export const education = [
@@ -50,7 +50,7 @@ export const education = [
 
 export const experiences = [
   {
-    role: "Salesforce Developer",
+    role: "Junior Salesforce Developer",
     company: "Adforce Solutions",
     location: "Lahore, Pakistan",
     period: "Aug 2026 - Present",
@@ -256,10 +256,10 @@ export const projects = [
 export const npmPackages = [];
 
 export const skills = {
-  Languages: ["Java", "C++", "Python"],
+  Languages: ["Java", "C++", "Python", "Salesforce", "Apex", "LWC", "Health Cloud"],
   Frontend: ["React.js", "Next.js", "Tailwind CSS", "JavaScript", "TypeScript", "HTML5", "CSS3", "Vite"],
   Backend: ["Node.js", "Express.js", "MongoDB", "MySQL", "Appwrite"],
-  Tools: ["Git", "GitHub"],
+  Tools: ["Git", "GitHub", "Salesforce CLI"],
 };
 
 export const certificates = [
